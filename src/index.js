@@ -19,8 +19,8 @@ if(process.env.NODE_ENV !== "production"){
 
 //mongodb connection
 mongoose.connect(DATABASE_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    //useNewUrlParser: true,
+    //useUnifiedTopology: true,
 }).then(()=>{
     logger.info('connected to mongodb');
 })
